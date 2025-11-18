@@ -3,18 +3,17 @@
     padding: 100px 0;
     position: relative;
     z-index: 1;
-    
+    overflow: hidden;
 }
 
 .hero::after {
   content: "";
   position: absolute;
-  bottom: -255px;
   left: 0;
   width: 100%;
-  height: 355px;
+  height: 300px;
   background: white;
-  transform: skewY(-15deg);
+  transform: skewY(-6deg);
   transform-origin: top left;
   z-index: -1;
 }
@@ -70,4 +69,8 @@
 .social-icons img {
   width: 24px;
   cursor: pointer;
+}
+
+.work-experience-wrapper {
+  background-color: red;
 }
