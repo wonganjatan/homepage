@@ -117,3 +117,29 @@
   border-radius: 5px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
+
+.contact-wrapper {
+      background-color: aqua;
+
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+}
+
+.contact-social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.contact-social-icons img {
+  width: 24px;
+  cursor: pointer;
+}
+
+.contact-image img {
+  width: 350px;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
